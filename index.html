@@ -1,19 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>M.S.Pharmacy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M.S.Pharmacy - Your Health, Our Priority</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
+
+<!-- HEADER -->
+
 <header>
-<img src="logo.png" class="logo">
+<div class="logo-section">
+<img src="logo.png" alt="M.S.Pharmacy Logo">
+<div>
 <h1>M.S.Pharmacy</h1>
-<input id="search" placeholder="Search medical products...">
+<p>Your Health, Our Priority</p>
+</div>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+<a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+</nav>
 </header>
-<div class="products" id="products"></div>
-<a class="wa" href="https://wa.me/919700807006">Order on WhatsApp</a>
+
+<!-- SEARCH -->
+
+<section class="search-section">
+<input type="text" id="searchInput"
+placeholder="Search Medicines, Vitamins, Baby Care...">
+</section>
+
+<!-- SLIDER -->
+
+<section class="slider">
+
+<div class="slide active">
+<img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1200" alt="">
+</div>
+
+<div class="slide">
+<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200" alt="">
+</div>
+
+<div class="slide">
+<img src="https://images.unsplash.com/photo-1580281657527-47c07f8f98dc?w=1200" alt="">
+</div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="categories">
+
+<div class="category">
+<i class="fa-solid fa-capsules"></i>
+<h3>Medicines</h3>
+</div>
+
+<div class="category">
+<i class="fa-solid fa-baby"></i>
+<h3>Baby Care</h3>
+</div>
+
+<div class="category">
+<i class="fa-solid fa-heart"></i>
+<h3>Health Care</h3>
+</div>
+
+<div class="category">
+<i class="fa-solid fa-shield-heart"></i>
+<h3>First Aid</h3>
+</div>
+
+<div class="category">
+<i class="fa-solid fa-pump-soap"></i>
+<h3>Personal Care</h3>
+</div>
+
+<div class="category">
+<i class="fa-solid fa-leaf"></i>
+<h3>Ayurvedic</h3>
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+<h2 class="title">Featured Products</h2>
+
+<div class="product-grid" id="productContainer">
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<h2>About M.S.Pharmacy</h2>
+
+<p>
+
+M.S.Pharmacy is a trusted medical store located in Hyderabad.
+
+We provide quality medicines, healthcare products, baby care items,
+
+vitamins and wellness products at affordable prices.
+
+</p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Address:</b> Hyderabad, Telangana</p>
+
+<p><b>WhatsApp:</b> 9700807006</p>
+
+<p><b>Email:</b> support@mspharmacy.in</p>
+
+</section>
+
+<!-- CART -->
+
+<section id="cart">
+
+<h2 class="title">Shopping Cart</h2>
+
+<div id="cart-items"></div>
+
+<h3>Total: ₹<span id="total">0</span></h3>
+
+</section>
+
+<!-- WHATSAPP BUTTON -->
+
+<a href="https://wa.me/919700807006"
+
+class="floating-whatsapp"
+
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
 <script src="script.js"></script>
+
 </body>
 </html>
