@@ -6,6 +6,7 @@ const products = [
 
 {
 name:"All Nestle product are available",
+price:"Available
 image:"https://i.ibb.co/1G2wX4m5/file-0000000022547209a55ad6ace5b58f9a.png"
 },
 
