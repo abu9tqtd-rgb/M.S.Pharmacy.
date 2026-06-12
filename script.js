@@ -5,9 +5,9 @@
 const products = [
 
 {
-name:"All Nestle product are available",
-price:"Available
-image:"https://i.ibb.co/1G2wX4m5/file-0000000022547209a55ad6ace5b58f9a.png"
+name:"Paracetamol 500mg",
+price:30,
+image:"https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600"
 },
 
 {
