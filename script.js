@@ -6,146 +6,175 @@ const products = [
 
 {
 name:"Paracetamol 500mg",
-image:"https://i.ibb.co/1G2wX4m5/file-0000000022547209a55ad6ace5b58f9a.png"
+price:30,
+image:"https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600"
 },
 
 {
 name:"Dolo 650",
+price:35,
 image:"https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=600"
 },
 
 {
 name:"Crocin",
+price:40,
 image:"https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600"
 },
 
 {
 name:"Vitamin C Tablets",
+price:120,
 image:"https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=600"
 },
 
 {
 name:"Zinc Tablets",
+price:150,
 image:"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600"
 },
 
 {
 name:"ORS Powder",
+price:25,
 image:"https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600"
 },
 
 {
 name:"Cetirizine",
+price:45,
 image:"https://images.unsplash.com/photo-1628771065518-0d82f1938462?w=600"
 },
 
 {
 name:"Digene",
+price:60,
 image:"https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=600"
 },
 
 {
 name:"Gelusil",
+price:70,
 image:"https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=600"
 },
 
 {
 name:"Cough Syrup",
+price:90,
 image:"https://images.unsplash.com/photo-1580281657527-47c07f8f98dc?w=600"
 },
 
 {
 name:"Bandage Pack",
+price:50,
 image:"https://images.unsplash.com/photo-1612277795421-9bc7706a4a41?w=600"
 },
 
 {
 name:"Cotton Roll",
+price:35,
 image:"https://images.unsplash.com/photo-1584515933487-779824d29309?w=600"
 },
 
 {
 name:"Dettol",
+price:110,
 image:"https://images.unsplash.com/photo-1583947582886-f40ec95dd752?w=600"
 },
 
 {
 name:"Thermometer",
+price:250,
 image:"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600"
 },
 
 {
 name:"Antiseptic Cream",
+price:95,
 image:"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600"
 },
 
 {
 name:"Baby Lotion",
+price:180,
 image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Powder",
+price:120,
 image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Shampoo",
+price:220,
 image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Oil",
+price:150,
 image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
-name:"Baby Soap"
+name:"Baby Soap",
+price:80,
 image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Face Wash",
+price:199,
 image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Sunscreen SPF50",
+price:299,
 image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Moisturizer",
+price:249,
 image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Aloe Vera Gel",
+price:180,
 image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Anti Acne Gel",
+price:220,
 image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Glucometer",
+price:899,
 image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Test Strips",
+price:499,
 image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Lancets",
+price:199,
 image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Sugar Free Tablets",
+price:140,
 image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
 },
 
@@ -237,6 +266,8 @@ container.innerHTML += `
 <div class="product-content">
 
 <h3>${product.name}</h3>
+
+<div class="price">₹${product.price}</div>
 
 <button class="btn"
 onclick="addToCart('${product.name}',${product.price})">
