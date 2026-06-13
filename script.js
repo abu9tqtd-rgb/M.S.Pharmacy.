@@ -5,243 +5,223 @@
 const products = [
 
 {
-name:"Paracetamol 500mg",
-price:30,
-image:"https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600"
+name:"Johnson's",
+image:"https://i.ibb.co/hJrjqdq3/Screenshot-20260614-005911.jpg"
 },
 
 {
-name:"Dolo 650",
-price:35,
-image:"https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=600"
+name:"Nestle.",
+image:"https://i.ibb.co/7Jw0VqbG/file-0000000058c471faac8d4adf2ed1e088.png"
 },
 
 {
-name:"Crocin",
-price:40,
-image:"https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600"
+name:"Himalaya baby.prod",
+image:"https://i.ibb.co/GvVnKnpQ/file-000000002a9871faa268218a6bb967e6.png"
 },
 
 {
-name:"Vitamin C Tablets",
-price:120,
-image:"https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=600"
+name:"POND'S",
+image:"https://i.ibb.co/rG2QMHJw/Screenshot-20260614-005833.jpg"
 },
 
 {
-name:"Zinc Tablets",
-price:150,
-image:"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600"
+name:"MamyPoko Pants",
+image:"https://i.ibb.co/d0968zFH/Screenshot-20260614-005851.jpg"
 },
 
 {
-name:"ORS Powder",
-price:25,
-image:"https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600"
+name:"Veet",
+image:"https://i.ibb.co/0yFP1w9s/Screenshot-20260614-005935.jpg"
 },
 
 {
-name:"Cetirizine",
-price:45,
-image:"https://images.unsplash.com/photo-1628771065518-0d82f1938462?w=600"
+name:"GARNIER MEN",
+image:"https://i.ibb.co/KR7Fzgc/Screenshot-20260614-005959.jpg"
 },
 
 {
-name:"Digene",
-price:60,
-image:"https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=600"
+name:"Whisper",
+image:"https://i.ibb.co/dwDLryK8/Screenshot-20260614-010013.jpg"
 },
 
 {
-name:"Gelusil",
-price:70,
-image:"https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=600"
+name:"StayFree",
+image:"https://i.ibb.co/dsNw9BCx/Screenshot-20260614-010028.jpg"
 },
 
-{
-name:"Cough Syrup",
-price:90,
-image:"https://images.unsplash.com/photo-1580281657527-47c07f8f98dc?w=600"
-},
 
-{
-name:"Bandage Pack",
-price:50,
-image:"https://images.unsplash.com/photo-1612277795421-9bc7706a4a41?w=600"
-},
 
 {
 name:"Cotton Roll",
-price:35,
-image:"https://images.unsplash.com/photo-1584515933487-779824d29309?w=600"
+image:"https://images.unsplashcom/photo-1584515933487-779824d29309?w=600"
 },
 
 {
 name:"Dettol",
 price:110,
-image:"https://images.unsplash.com/photo-1583947582886-f40ec95dd752?w=600"
+image:"https://images.unsplash.cm/photo-1583947582886-f40ec95dd752?w=600"
 },
 
 {
 name:"Thermometer",
 price:250,
-image:"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600"
+image:"https://images.unsplas.com/photo-1582719478250-c89cae4dc85b?w=600"
 },
 
 {
 name:"Antiseptic Cream",
 price:95,
-image:"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600"
+image:"https://images.unsplash.com/phto-1587854692152-cbe660dbde88?w=600"
 },
 
 {
 name:"Baby Lotion",
 price:180,
-image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
+image:"https://images.unsplas.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Powder",
 price:120,
-image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
+image:"https://images.unsplas.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Shampoo",
 price:220,
-image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
+image:"https://images.unplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Oil",
 price:150,
-image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
+image:"https://images.unslash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Baby Soap",
 price:80,
-image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600"
+image:"https://imagesunsplash.com/photo-1515377905703-c4788e51af15?w=600"
 },
 
 {
 name:"Face Wash",
 price:199,
-image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+image:"https://images.usplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Sunscreen SPF50",
 price:299,
-image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+image:"https://images.unsplash.com/photo-155628720-195a672e8a03?w=600"
 },
 
 {
 name:"Moisturizer",
 price:249,
-image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+image:"https://imags.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Aloe Vera Gel",
 price:180,
-image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+image:"https://iages.unsplash.com/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Anti Acne Gel",
 price:220,
-image:"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+image:"https://images.unsplash.cm/photo-1556228720-195a672e8a03?w=600"
 },
 
 {
 name:"Glucometer",
 price:899,
-image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
+image:"https://images.unsplash.com/photo-159684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Test Strips",
 price:499,
-image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
+image:"https://images.unsplash.com/photo-157684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Lancets",
 price:199,
-image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
+image:"https://images.unsplash.com/photo-159684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Sugar Free Tablets",
 price:140,
-image:"https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600"
+image:"https://images.unsplash.com/photo-179684385127-1ef15d508118?w=600"
 },
 
 {
 name:"Horlicks",
 price:350,
-image:"https://images.unsplash.com/photo-1622484212850-eb596d769edc?w=600"
+image:"https://images.unsplash.com/photo-122484212850-eb596d769edc?w=600"
 },
 
 {
 name:"Boost",
 price:320,
-image:"https://images.unsplash.com/photo-1622484212850-eb596d769edc?w=600"
+image:"https://images.unsplash.com/photo-162484212850-eb596d769edc?w=600"
 },
 
 {
 name:"Bournvita",
 price:340,
-image:"https://images.unsplash.com/photo-1622484212850-eb596d769edc?w=600"
+image:"https://images.unsplash.com/photo-162284212850-eb596d769edc?w=600"
 },
 
 {
 name:"Protein Powder",
 price:999,
-image:"https://images.unsplash.com/photo-1622484212850-eb596d769edc?w=600"
+image:"https://images.unsplash.com/photo-162484212850-eb596d769edc?w=600"
 },
 
 {
 name:"Toothpaste",
 price:120,
-image:"https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=600"
+image:"https://images.unsplash.com/photo-160713009820-a29f7bb81c04?w=600"
 },
 
 {
 name:"Toothbrush",
 price:60,
-image:"https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=600"
+image:"https://images.unsplash.com/photo-167613009820-a29f7bb81c04?w=600"
 },
 
 {
 name:"Hand Sanitizer",
 price:99,
-image:"https://images.unsplash.com/photo-1583947582886-f40ec95dd752?w=600"
+image:"https://images.unsplash.com/photo-158947582886-f40ec95dd752?w=600"
 },
 
 {
 name:"Face Mask",
 price:80,
-image:"https://images.unsplash.com/photo-1583947582886-f40ec95dd752?w=600"
+image:"https://images.unsplash.com/photo-158347582886-f40ec95dd752?w=600"
 },
 
 {
 name:"Hair Oil",
 price:160,
-image:"https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600"
+image:"https://images.unsplash.com/photo-152335789203-aabd1fc54bc9?w=600"
 },
 
 {
 name:"Body Wash",
 price:220,
-image:"https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600"
+image:"https://images.unsplash.com/photo-152335789203-aabd1fc54bc9?w=600"
 },
 
 {
 name:"Lip Balm",
 price:90,
-image:"https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600"
+image:"https://images.unsplash.com/photo-152235789203-aabd1fc54bc9?w=600"
 }
 
 ];
@@ -267,12 +247,6 @@ container.innerHTML += `
 
 <h3>${product.name}</h3>
 
-<div class="price">₹${product.price}</div>
-
-<button class="btn"
-onclick="addToCart('${product.name}',${product.price})">
-Add To Cart
-</button>
 
 <a href="https://wa.me/919700807006?text=Hello M.S.Pharmacy, I want to order ${product.name}"
 target="_blank">
