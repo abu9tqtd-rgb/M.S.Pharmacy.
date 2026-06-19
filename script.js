@@ -26,7 +26,7 @@ image:"https://i.ibb.co/rG2QMHJw/Screenshot-20260614-005833.jpg"
 
 {
 name:"MamyPoko Pants",
-image:"https://i.ibb.co/d0968zFH/Screenshot-20260614-005851.jpg"
+image:"https:/i.ibb.co/d0968zFH/Screenshot-20260614-005851.jpg"
 },
 
 {
